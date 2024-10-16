@@ -20,7 +20,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  gap: 2rem;
+}
+
+.content button {
+  padding: 8px;
 }
 
 img {
@@ -44,4 +48,32 @@ input {
 .footer {
   display: flex;
   justify-content: space-between;
+  background-color: #efefef;
+}
+
+.right-links {
+  margin-right: 1rem;
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+li > a {
+  color: #7c848a;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
 }
